@@ -21,8 +21,8 @@ body{
 
 .box{
     height: 100px;
-    min-width: 200px;
-    flex-grow: 1;
+    flex-basis: 500px;
+
 }
 .one{
     background: red;
