@@ -20,19 +20,22 @@ body{
 
 .box{
     height: 100px;
-    min-width: 100px;
+    min-width: 370px;
 }
 .one{
     background: red;
-    flex-grow: 2;
+    flex-shrink: 4;
+
 }
 .two{
     background: blue;
-    flex-grow: 3;
+    flex-shrink: 5;
+
 
 }
 .three{
     background: green;
-    flex-grow: 1;
+    flex-shrink: 6;
+
 
 }
