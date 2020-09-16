@@ -5,39 +5,28 @@
 
 body{
     background: #eee;
+    color: #333;
 }
 
 .wrapper{
     width: 100%;
     max-width: 960px;
-    margin: 0 auto;
 }
 
-.flex-container{
+#blocks{
     display:flex;
-    background: #fff;
-    flex-wrap: wrap;
-    flex-flow: row;
-    justify-content: center;
-    height: 600px
+    margin: 10px;
+    justify-content: space-between;
 }
 
-.box{
-    height: 100px;
+#blocks div{
     flex: 0 0 100px;
-
+    padding: 40px 0;
+    text-align: center;
+    background: #ccc;
 }
-.one{
-    background: red;
 
-}
-.two{
-    background: blue;
-
-
-}
-.three{
-    background: green;
-
-
-}
+.one{order:0}
+.two{order:4}
+.three{order:-1000}
+.four{order:2}
